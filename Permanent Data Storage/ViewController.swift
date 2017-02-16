@@ -9,11 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
    
     @IBOutlet var textField: UITextField!
-    
-    
+   
     @IBAction func submit(_ sender: Any) {
         
         UserDefaults.standard.set(textField.text, forKey: "number")
@@ -42,9 +40,7 @@ class ViewController: UIViewController {
 
 
 
-/*
-
- 
+/* 
 
  // Do any additional setup after loading the view, typically from a nib.
  
